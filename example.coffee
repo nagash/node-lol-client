@@ -10,7 +10,7 @@ options =
 
 summoner = {
   name: 'HotshotGG', # summoners name
-  acctId: 434582, # returned from getSummonerByName and getSummonerById
+  acctId: 434582, # returned from getSummonerByName
   summonerId: 407750 # returned from getSummonerByName
   teamId: "TEAM-a1ebba15-986f-488a-ae2f-e081b2886ba4" # teamIds can be gotten from getTeamsForSummoner
 }
