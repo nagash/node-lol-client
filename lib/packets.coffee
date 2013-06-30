@@ -71,7 +71,7 @@ class LoginPacket extends Packet
     headers.encoding = 2
     return headers
 
-  generateBody: (clientVersion = '1.48.11_11_14_04_20') ->
+  generateBody: (clientVersion = '3.18.13_06_12_20_25') ->
     body = new ASObject()
     body.name = 'com.riotgames.platform.login.AuthenticationCredentials'
     body.keys = ['oldPassword', 'password', 'authToken', 'locale', 'partnerCredentials', 'ipAddress', 'domain', 'username', 'clientVersion', 'securityAnswer']
