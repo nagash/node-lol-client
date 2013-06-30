@@ -32,7 +32,7 @@ class LolClient extends EventEmitter
 
     @options.username = @options.username
     @options.password = @options.password
-    @options.version = @options.version || '1.55.12_02_27_22_54'
+    @options.version = @options.version || '3.8.13_06_12_20_25'
     @options.debug = @options.debug || false
 
     console.log @options if @options.debug
